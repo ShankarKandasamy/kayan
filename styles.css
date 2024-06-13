@@ -546,10 +546,18 @@ h3::after {
   background-color: var(--gray-medium);
 }
 
-.section-video iframe {
+.section-video iframe,
+.section-tour iframe {
   width: 100vw;
   height: 100vh;
   max-height: 580px;
+}
+
+.section-tour iframe {
+  max-width: 1030px;
+}
+
+.section-video iframe {
   max-width: 1460px;
 }
 
@@ -559,11 +567,6 @@ h3::after {
   text-align: center;
 }
 
-.section-tour iframe {
-  width: 100%;
-  max-width: 1490px;
-  height: 90%;
-}
 .section-tour h3,
 .section-hood h3,
 .section-report h3,
@@ -650,6 +653,7 @@ h3::after {
   width: 100%;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   gap: 2vw;
 }
@@ -671,7 +675,8 @@ h3::after {
   padding: 2.1rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 2vw;
 }
 
 .form {
