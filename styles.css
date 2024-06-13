@@ -546,6 +546,13 @@ h3::after {
   background-color: var(--gray-medium);
 }
 
+.section-video iframe {
+  width: 100vw;
+  height: 100vh;
+  max-height: 580px;
+  max-width: 1460px;
+}
+
 .section-tour {
   background-color: #fff;
   height: 100vh;
