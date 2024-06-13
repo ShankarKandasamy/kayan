@@ -651,7 +651,7 @@ h3::after {
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
   display: flex;
   justify-content: center;
-  gap: 4vw;
+  gap: 2vw;
 }
 
 .contact-form-separator {
