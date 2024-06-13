@@ -546,7 +546,7 @@ h3::after {
   background-color: var(--gray-medium);
 }
 
-.section-video iframe,
+/* .section-video iframe, */
 .section-tour iframe {
   width: 100vw;
   height: 100vh;
@@ -557,14 +557,29 @@ h3::after {
   max-width: 1030px;
 }
 
-.section-video iframe {
+/* .section-video iframe {
   max-width: 1460px;
-}
+} */
 
 .section-tour {
   background-color: #fff;
   height: 100vh;
   text-align: center;
+}
+
+.promo-video-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  overflow: hidden;
+}
+
+.promo-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .section-tour h3,
