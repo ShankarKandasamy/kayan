@@ -4,6 +4,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self' https://maps.googleapis.com https://www.youtube.com https://s.ytimg.com https://my.matterport.com;
+    connect-src 'self';
+    img-src 'self' https://maps.googleapis.com https://my.matterport.com;
+    style-src 'self' 'unsafe-inline';
+    frame-src 'self' https://www.youtube.com https://my.matterport.com;
+">
   <title>4 Abitibi Lake</title>
   <link rel="stylesheet" href="styles.css" />
   <!-- Link to your CSS file -->
